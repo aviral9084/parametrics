@@ -1,0 +1,25 @@
+class Apple
+{
+    String name;
+    int emp_id;
+    Apple(String name , int emp_id)
+    {
+        this.name=name;
+        this.emp_id = emp_id;
+    }
+    void display()
+    {
+        System.out.println(name+""+emp_id+"");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Apple a1 = new Apple("aviral",12);
+        Apple a2 = new Apple("rohan",34);
+        a1.display();
+        a2.display();
+        
+    }
+
+}
